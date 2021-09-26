@@ -23,7 +23,7 @@ def display_hbnb():
 
 @app.teardown_appcontext
 def teardown_db(*args, **kwargs):
-    """Close database or file storage"""
+    """Close database"""
     storage.close()
 
 
