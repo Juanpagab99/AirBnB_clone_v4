@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Cash only"""
+"""Generate html content with flask"""
 from flask import Flask, render_template
 from models import storage
 import uuid
