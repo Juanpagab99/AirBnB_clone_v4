@@ -1,3 +1,4 @@
+const amenities = {};
 $(document).ready(function () {
 	$('.amenities input:checkbox').change(function () {
 		const checkedAmenities = {};
